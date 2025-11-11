@@ -145,7 +145,7 @@ result_label.pack(pady=10)
 
 # History display
 tk.Label(root, text="Calculation History:").pack()
-history_text = tk.Text(root, height=10, width=50)
+history_text = tk.Text(root, height=5, width=50)
 history_text.pack()
 
 tk.Button(root, text="Clear History", command=clear_history).pack(pady=5)
